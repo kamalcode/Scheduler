@@ -3,7 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Model", "Scheduler.Model\Scheduler.Model.csproj", "{314C7F4D-1841-4C6C-B154-A3AE28754791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Data", "Scheduler.Data\Scheduler.Data.csproj", "{93A345FF-B46E-4C7C-B45B-65522EF18120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.API", "Scheduler.API\Scheduler.API.csproj", "{FF065904-7C60-4665-8B97-919536930498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF10DDEC-B4A5-4E22-89CC-E320418D0F25}"
+	ProjectSection(SolutionItems) = preProject
+		dotnet-core-api-07.png = dotnet-core-api-07.png
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314C7F4D-1841-4C6C-B154-A3AE28754791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314C7F4D-1841-4C6C-B154-A3AE28754791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314C7F4D-1841-4C6C-B154-A3AE28754791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314C7F4D-1841-4C6C-B154-A3AE28754791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A345FF-B46E-4C7C-B45B-65522EF18120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A345FF-B46E-4C7C-B45B-65522EF18120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A345FF-B46E-4C7C-B45B-65522EF18120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A345FF-B46E-4C7C-B45B-65522EF18120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF065904-7C60-4665-8B97-919536930498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF065904-7C60-4665-8B97-919536930498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF065904-7C60-4665-8B97-919536930498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF065904-7C60-4665-8B97-919536930498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
